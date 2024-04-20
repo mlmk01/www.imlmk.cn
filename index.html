@@ -9,10 +9,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
     <meta name="force-rendering" content="webkit" />
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="MLMKの主页">
-    <meta name="keywords" content="mlmk,漫蓝梦坤,个人主页">
+    <meta name="description" content="漫蓝梦坤の个人导航主页，这里包含了可爱坤坤旗下安全的站点，可以快速了解我和访问网站内容。那么，如果你喜欢的，期待与你交好朋友~~~">
+    <meta name="keywords" content="mlmk,漫蓝梦坤,个人主页,坤坤,郭昊坤">
     <meta name="author" content="MLMK">
-    <title>漫蓝梦坤の主页</title>
+    <title>漫蓝梦坤の个人导航页</title>
     <link rel="stylesheet" type="text/css" href="./css/style.css">
     <link rel="stylesheet" type="text/css" href="./css/iconfont.css">
     <link rel="apple-touch-icon" href="./images/apple-touch-icon.png">
@@ -37,13 +37,14 @@
     <script>if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMode)) window.location.href = "https://imsyy.top/upgrade-your-browser/index.html?referrer=" + encodeURIComponent(window.location.href);</script>
 </head>
 
-<body oncontextmenu=self.event.returnValue=false onselectstart="return false">
-    <!--<span class="mobile btn-mobile-menu">
+<body oncontextmenu = self.event.returnValue = false onselectstart = "return false">
+        <!--异常（减缓加载速度)
+        <span class="mobile btn-mobile-menu">
         <i class="social iconfont icon-list btn-mobile-menu__icon"></i>
         <i class="social iconfont icon-ngleup btn-mobile-close__icon hidden"></i>
-    </span>-->
-    <header id="panel" class="panel-cover"
-        style="background: url(./images/kj.webp) center center / cover no-repeat rgb(102, 102, 102);">
+        </span>-->
+        <header id="panel" class="panel-cover"
+        style="background: url(https://mlmk.gitee.io/photo/个人主页/2.png) center center / cover no-repeat rgb(102, 102, 102);">
         <!--星空背景-->
         <div id="stars"></div>
         <div id="stars2"></div>
@@ -81,8 +82,8 @@
                 <div class="panel-main__content">
                     <div class="ih-item circle effect right_to_left">
                         <a class="blog-button">
-                            <div class="img"> <img src="https://q1.qlogo.cn/g?b=qq&nk=3217816663&s=100" alt="img"
-                                    class="js-avatar iUp profilepic header-logo">
+                            <div class="img"> <img src="https://mlmk.gitee.io/photo/blog图片/mlmk.jpg"
+                            alt="img" class="js-avatar iUp profilepic header-logo">
                             </div>
                             <div class="info iUp">
                                 <div class="info-back">
@@ -113,25 +114,26 @@
                                             style="--clr:#1e9bff"><span>简介</span><i></i></a>
                                     </li>
                                     <li class="navigation__item">
-                                        <a href="https://blog.imlmk.cn/" target="_blank"
+                                        <a href="https://blog.oikun.com/" target="_blank"
                                             style="--clr:#f85d5d"><span>博客</span><i></i></a>
                                     </li>
                                     <li class="navigation__item">
-                                        <a href="https://pan.imlmk.cn/" target="_blank"
+                                        <a href="https://pan.oikun.com/" target="_blank"
                                             style="--clr:#ff1867"><span>网盘</span><i></i></a>
                                     </li>
-                                   <li class="navigation__item">
-                                        <a href="http://www.nyvc.edu.cn" target="_blank"
-                                            style="--clr:#ebe417"><span>南职</span><i></i></a>
-                                    </li>
-                            <!--        <li class="navigation__item">
-                                        <a href="https://bz.lqbby.com:1443/"
-                                            style="--clr:#eb2feb"><span>壁纸</span><i></i></a>
+                                    <li class="navigation__item">
+                                        <a href="https://bingo.oikun.com/" target="_blank"
+                                            style="--clr:#eb2feb"><span>BingAI</span><i></i></a>
                                     </li>
                                     <li class="navigation__item">
-                                        <a href="https://api.lqbby.com:1443"
-                                            style="--clr:#28a745"><span>青龙api</span><i></i></a>
-                                    </li>   -->
+                                        <a href="./uptime" target="_blank"
+                                            style="--clr:#28a745"><span>云控</span><i></i></a>
+                                    </li>
+                                  <!-- <li class="navigation__item">
+                                        <a href="http://www.nyvc.edu.cn" target="_blank"
+                                            style="--clr:#ebe417"><span>南职</span><i></i></a>
+                                    </li>-->
+                            
                                 </ul>
                             </nav>
 
@@ -140,7 +142,7 @@
                             <nav class="cover-navigation navigation--social">
                                 <ul class="navigation">
                                     <li class="navigation__item">
-                                        <a href="https://github.com/mlmk01/" title="Github" target="_blank">
+                                        <a href="https://github.com/mlmk6698/" title="Github" target="_blank">
                                             <j class="iconfont icon-github"></j>
                                             <span class="label">Github</span>
                                         </a>
@@ -157,13 +159,26 @@
                                             <span class="label">bilibili</span>
                                         </a>
                                     </li>  
+                                    
                                     <li class="navigation__item">
-                                        <a href="https://wpa.qq.com/msgrd?v=3&uin=3217816663&site=qq&menu=yes"
-                                            title="QQ" target="_blank">
+                                        <a onClick="qq()" title="微信" target="_blank">
                                             <j class="fab fa-qq"></j>
+                                            <script>
+                                                function qq() {
+                                                    Swal.fire({
+                                                        title: "企鹅好友",
+                                                        text: "QQ：mlmk6698",
+                                                        confirmButtonText: "好哒",
+                                                        imageUrl: "./images/qq.jpg",
+                                                        imageWidth: 150,
+                                                        imageHeight: 150,
+                                                    })
+                                                }
+                                            </script>
                                             <span class="label">QQ</span>
                                         </a>
                                     </li>
+                                    
                                     <li class="navigation__item">
                                         <a onClick="weixin()" title="微信" target="_blank">
                                             <j class="fab fa-weixin"></j>
@@ -172,10 +187,10 @@
                                                     Swal.fire({
                                                         title: "微信好友",
                                                         text: "微信：mlmk6698",
-                                                        confirmButtonText: "好的",
-                                                        imageUrl: "./images/weixin.png",
+                                                        confirmButtonText: "好哒",
+                                                        imageUrl: "https://mlmk.gitee.io/photo/blog图片/微信.png",
                                                         imageWidth: 150,
-                                                        imageHeight: 150
+                                                        imageHeight: 150,
                                                     })
                                                 }
                                             </script>
@@ -197,10 +212,10 @@
         </div>
         <div class="remark iUp">
             <p class="power">
-            <a href="https://beian.miit.gov.cn/" target="_blank">豫ICP备2023005601号-1</a>
-            <p class="power">Copyright©2020
-                <script>document.write(' - ' + (new Date()).getFullYear())</script>MLMK
-            </p>
+            <a href="https://beian.miit.gov.cn/" target="_blank">豫ICP备2023005601号-1，豫ICP备2023005601号-2</a></p>
+         <!--   <p class="power">
+                <script>document.write(' - ' + (new Date()).getFullYear())</script>
+            </p>-->
         </div>
     </header>
     <!--黑暗主题-->
@@ -208,7 +223,7 @@
 
 
 
-    <!--izitoast弹窗设置
+    <!--izitoast弹窗设置  -->
     <script>
         iziToast.settings({
             timeout: 4000,
@@ -230,10 +245,11 @@
                 message: '只是出现了一点小问题 ~'
             });
         }
-        -->
+       
     </script>
     <script type="text/javascript" src="./js/jquery.min.js"></script>
     <script type="text/javascript" src="./js/fetch.min.js"></script>
     <script type="text/javascript" src="./js/main.js"></script>
 
 </body>
+</html>
